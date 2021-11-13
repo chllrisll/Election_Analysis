@@ -1,44 +1,33 @@
 # Election_Analysis
 
-## Project overview
-Colorado Board of Election tasks us to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+**The election commission has requested additional data for an election audit:**
+1) The voter turnout for each county
+2) The percentage of votes from each county out of the total count
+3) The county with the highest turnout
 
-**Tasks**
-1. Calculate total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate total number of votes each candidate receieved.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+## Election Audit Results
 
-## Resources
-Data Source: election_results.csv
+- Total Number of votes in the Congressional Election: __369,711__
 
-Software: Python 3.7.6; Visual Studio Code, 1.62.0
+- County Breakdown by percentage of total votes and total number of votes for each county in precinct
 
-## Summary
-**The analysis is based on a total of _369,711_ votes cast in the election.**
+![Screen Shot 2021-11-13 at 3 57 29 PM](https://user-images.githubusercontent.com/49954261/141660215-dd36a39c-8934-44b4-a80a-b3e21fa8e07a.png)
 
-**Candidates:**
-  1.  **Charles Casper**
-  2.  **Diana DeGette**
-  3.  **Raymon Anthony Doane**
+- County with the largest voter turnout (number of votes) = Denver
 
-**Candidate Results:**
+- Candidate, vote percent received, and total votes candidate receieved:
 
-  Candidate, **Charles Casper** received 23% of the vote and 85,213 number of the votes.
+![Screen Shot 2021-11-13 at 4 15 57 PM](https://user-images.githubusercontent.com/49954261/141660569-89521703-0e4f-451f-9566-3d1d21767eb1.png)
 
-  Candidate, **Diana DeGette** received 74% of the vote and 272,892 number of the votes.
+- Winner of the Election, vote count of the winner and the percentage of votes received for the winning candidate:
 
-  Candidate, **Raymon Anthony Doane** received 3% of the vote and 11,606 number of the votes.
+![Screen Shot 2021-11-13 at 4 18 44 PM](https://user-images.githubusercontent.com/49954261/141660619-4b27bb8c-323c-441a-b7cf-9779c42adf73.png)
 
-  
-The Winning Candidate
-:
-  **_Diana DeGette_, who received 74% of the vote and _272,892_ number of votes.**
-  
-  ## Challenge Overview
-  The challenge consisted of creating and refactoring a code that would calcualte total votes and votes received by each candidate.
-  
-  ## Challenge Summary
-  In summary the Candidate, Diana DeGette, recieved a majority of the vote at almost 3/4 of the voter turnout.
-  
+
+## Election Audit Summary:
+In summary this Election Audit code can be refactored to ensure voter integrity in the states election process in any precinct or any elections at the local and state level. The base code gives us a basis to audit voting results; with modifcations to candidates, counties, voter variables, file uploads this base code can be used to audit most elections with modifcations.
+
+__To the Election Commission I'd like to thank you all for the oppurtinity and we would ask if there are future audits, data cleaning, or any Election Analysis needs in the future please consider working with us again!__
+
+
