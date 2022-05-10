@@ -28,6 +28,4 @@
 ## Election Audit Summary:
 In summary this Election Audit code can be refactored to ensure voter integrity in the states election process in any precinct or any elections at the local and state level. The base code gives us a basis to audit voting results; with modifcations to candidates, counties, voter variables, file uploads this base code can be used to audit most elections with modifcations.
 
-__To the Election Commission I'd like to thank you all for the oppurtinity and we would ask if there are future audits, data cleaning, or any Election Analysis needs in the future please consider working with us again!__
-
 
